@@ -1,12 +1,12 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-const Display = () => {
+const Display = ({ displayVal }) => {
 
     return (
-        <Row>
-            <Col xs={12}>
-                Display
+        <Row style={{ marginBottom: '3%', height: '7vh', width: '18vw' }} align='right'>
+            <Col xs={12} style={{ borderStyle: 'solid' }}>
+                <h3>{displayVal}</h3>
             </Col>
         </Row>
     );

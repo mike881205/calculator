@@ -5,16 +5,16 @@ const RowFour = () => {
 
     return (
         <Row>
-            <Col xs={3}>
+            <Col xs={3} style={{ borderStyle: 'solid' }}>
             <Button variant="outline-primary">7</Button>{' '}
             </Col>
-            <Col xs={3}>
+            <Col xs={3} style={{ borderStyle: 'solid' }}>
             <Button variant="outline-primary">8</Button>{' '}
             </Col>
-            <Col xs={3}>
+            <Col xs={3} style={{ borderStyle: 'solid' }}>
             <Button variant="outline-primary">9</Button>{' '}
             </Col>
-            <Col xs={3}>
+            <Col xs={3} style={{ borderStyle: 'solid' }}>
             <Button variant="outline-primary">+</Button>{' '}
             </Col>
         </Row>
